@@ -1,0 +1,12 @@
+[nfs]
+192.168.0.7 ansible_ssh_user=vboxuser
+
+[webservers]
+192.168.0.4 ansible_ssh_user=vboxuser
+192.168.0.6 ansible_ssh_user=vboxuser
+
+[db]
+192.168.0.8 ansible_ssh_user=vboxuser 
+
+[lb]
+192.168.0.3 ansible_ssh_user=vboxuser
