@@ -1,5 +1,5 @@
 ---
-- name: Update Webservers, NFS Server, and Database Server
+- name: Update WebServer001, WebServer002, NFSServer001, and DBServer001
   hosts: webservers, nfs, db
   become: yes
   tasks:
@@ -9,7 +9,7 @@
         state: latest
    
 
-- name: Update The LoadBalancer Server
+- name: Update The LoadBalancer Server - LoadBal001
   hosts: lb
   become: yes
   tasks:
